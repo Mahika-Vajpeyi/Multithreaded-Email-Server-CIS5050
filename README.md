@@ -4,7 +4,7 @@ This project has two multithreaded servers: an SMTP server, which can be used to
 
 ### SMTP Server
 
-It implements the following commands specified in RFC 821[https://tools.ietf.org/html/rfc821]:
+It implements the following commands specified in RFC 821(https://tools.ietf.org/html/rfc821):
 • HELO <domain>, which starts a connection;
 • MAIL FROM:, which tells the server who the sender of the email is;
 • RCPT TO:, which specifies the recipient;
