@@ -25,3 +25,16 @@ It implements the following commands specified in [RFC 1939](https://tools.ietf.
 - LIST, which shows the size of a particular message, or all the messages;
 - RSET, which undeletes all the messages that have been deleted with DELE; and
 - NOOP, which does nothing.
+
+### Launching the Servers:
+Both servers need a mailtest directory with mbox files. To create the directory, run the following commands:
+mkdir mailtest
+touch mailtest/linhphan.mbox
+touch mailtest/bcpierce.mbox
+touch mailtest/zives.mbox
+
+###### Launching the SMTP Server:
+Run ./smtp -v /mailtest
+
+###### Launching the POP3 Server:
+Run ./pop3 /mailtest
