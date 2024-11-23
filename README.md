@@ -4,7 +4,7 @@ This project has two multithreaded servers: an SMTP server, which can be used to
 
 ### SMTP Server
 
-It implements the following commands specified in RFC 821 [(https://tools.ietf.org/html/rfc821)]:
+It implements the following commands specified in [RFC 821](https://tools.ietf.org/html/rfc821):
 • HELO <domain>, which starts a connection;
 • MAIL FROM:, which tells the server who the sender of the email is;
 • RCPT TO:, which specifies the recipient;
@@ -14,7 +14,7 @@ It implements the following commands specified in RFC 821 [(https://tools.ietf.o
 • NOOP, which does nothing.
 
 ### POP3 Server 
-It implements the following commands specified in RFC 1939 [(https://tools.ietf.org/html/rfc1939)]
+It implements the following commands specified in [RFC 1939](https://tools.ietf.org/html/rfc1939):
 • USER, which tells the server which user is logging in;
 • PASS, which specifies the user's password;
 • STAT, which returns the number of messages and the size of the mailbox;
