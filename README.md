@@ -5,8 +5,8 @@ This project has two multithreaded servers: an SMTP server, which can be used to
 ### SMTP Server
 
 It implements the following commands specified in [RFC 821](https://tools.ietf.org/html/rfc821):
-• HELO <domain>, which starts a connection;
-• MAIL FROM:, which tells the server who the sender of the email is;
+- HELO <domain>, which starts a connection;
+- MAIL FROM:, which tells the server who the sender of the email is;
 • RCPT TO:, which specifies the recipient;
 • DATA, which is followed by the text of the email and then a dot (.) on a line by itself;
 • QUIT, which terminates the connection;
